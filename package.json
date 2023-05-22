@@ -1,10 +1,10 @@
 {
-	"name": "@richardev/vue3-boilerplate",
-	"description": "Quick boilerplate for your next project, containing - Vite, Vuex, Vue Router & Tailwind CSS. This was created as part of my tutorial series.",
+	"name": "@wakolo/vue3---vite-router-pinia-tailwind",
+	"description": "Template for vue projects.",
 	"version": "1.0.8",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/richardevcom/vue3-boilerplate.git"
+		"url": "https://github.com/wakolo/vue3---vite-router-pinia-tailwind"
 	},
 	"scripts": {
 		"dev": "vite",
@@ -33,39 +33,6 @@
 		"vite": "^3.1.2",
 		"vite-svg-loader": "^3.6.0"
 	},
-	"keywords": [
-		"vue",
-		"vue3",
-		"vuejs",
-		"vue3js",
-		"boilerplate",
-		"template",
-		"router",
-		"vuerouter",
-		"vue-router",
-		"tailwind",
-		"tailwindcss",
-		"tailwind-css",
-		"pinia",
-		"svg",
-		"vue 3 boilerplate",
-		"vue3 boilerplate",
-		"vue 3 skeleton",
-		"vue3 skeleton",
-		"vue 3 starter",
-		"vue3 starter",
-		"vue 3 webpack boilerplate",
-		"vue3 webpack boilerplate",
-		"vue 3 webpack skeleton",
-		"vue3 webpack skeleton",
-		"vue 3 webpack starter",
-		"vue3 webpack starter",
-		"vue3 enterprise boilerplate",
-		"vue 3 enterprise boilerplate",
-		"vue3 enterprise skeleton",
-		"vue 3 enterprise skeleton",
-		"vue3 enterprise starter",
-		"vue 3 enterprise starter"
-	],
-	"author": "richardevcom <hello@richardev.com> (https://richardev.com)"
+	"keywords": [],
+	"author": ""
 }
