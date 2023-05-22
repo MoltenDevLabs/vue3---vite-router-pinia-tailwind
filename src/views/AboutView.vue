@@ -1,15 +1,13 @@
 <template>
-  <div class="about">
+  <div>
     <h1>This is an about page</h1>
   </div>
 </template>
 
-<style lang="scss">
-.about {
-  @apply lg:min-h-screen lg:flex lg:items-center;
+<script>
+export default {
+  name: "AboutView",
+};
+</script>
 
-  h1 {
-    @apply text-xl font-medium text-white;
-  }
-}
-</style>
+<style></style>
