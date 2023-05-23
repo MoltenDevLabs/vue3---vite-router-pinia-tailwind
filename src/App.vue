@@ -1,23 +1,28 @@
 <template>
   <header>
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
+    <NavbarSection />
   </header>
+
   <main>
     <RouterView />
   </main>
+
+  <footer>
+    <FooterSection />
+  </footer>
 </template>
 
 <script>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterView } from "vue-router";
+import NavbarSection from "./components/NavbarSection.vue";
+import FooterSection from "./components/FooterSection.vue";
 
 export default {
   name: "App",
   components: {
-    RouterLink,
     RouterView,
+    NavbarSection,
+    FooterSection,
   },
 };
 </script>
