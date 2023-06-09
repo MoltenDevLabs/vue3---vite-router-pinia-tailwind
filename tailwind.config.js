@@ -5,5 +5,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  fontFamily: {
+    'header': ['Lato', 'sans-serif'], //Header, subtitle 
+    'body': ['Merriweather', 'sans-serif'] //Body, button, caption, overline
+  },
   plugins: [],
 };
