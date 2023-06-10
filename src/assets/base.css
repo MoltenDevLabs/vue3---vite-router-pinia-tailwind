@@ -37,7 +37,13 @@
     @apply font-body text-xs font-normal tracking-wider;
   }
   button {
-    @apply font-body font-medium text-xs tracking-widest uppercase; /* uppercase or sentence case */
+    @apply font-body font-medium text-xs tracking-widest uppercase  /* uppercase or sentence case */
+/*     enabled: shadow
+    disabled: shadow-none
+    hover: shadow
+    focus: 
+    active:  */
+    ;
   }
   .caption {
     @apply font-body text-xs font-normal tracking-wide;
