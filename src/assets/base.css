@@ -37,7 +37,7 @@
     @apply font-body text-xs font-normal tracking-wider;
   }
   button {
-    @apply font-body font-medium text-xs tracking-widest uppercase;
+    @apply font-body font-medium text-xs tracking-widest uppercase; /* uppercase or sentence case */
   }
   .caption {
     @apply font-body text-xs font-normal tracking-wide;
