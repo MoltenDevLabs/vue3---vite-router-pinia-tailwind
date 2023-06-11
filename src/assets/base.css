@@ -36,19 +36,19 @@
   .body2 {
     @apply font-body text-xs font-normal tracking-wider;
   }
+  .caption {
+    @apply font-body text-xs font-normal tracking-wide;
+  }
+  .overlined {
+    @apply font-body text-xs font-normal tracking-widest uppercase;
+  }
   button {
-    @apply font-body font-medium text-xs tracking-widest uppercase  /* uppercase or sentence case */
+    @apply font-body font-medium text-xs tracking-widest uppercase  /* uppercase or capitalize */
 /*     enabled: shadow
     disabled: shadow-none
     hover: shadow
     focus: 
     active:  */
     ;
-  }
-  .caption {
-    @apply font-body text-xs font-normal tracking-wide;
-  }
-  .overline {
-    @apply font-body text-xs font-normal tracking-widest uppercase;
   }
 }

@@ -5,6 +5,8 @@
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
       <RouterLink to="/contact">Contact</RouterLink>
+      <RouterLink to="/palette">Palette</RouterLink>
+      <RouterLink to="/typography">Typography</RouterLink>
     </nav>
   </div>
 </template>
