@@ -1,54 +1,63 @@
-* {
+*, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', 'Merriweather', sans-serif;
+  border-color: var(--md-sys-color-outline);
+  font-family: "Lato", "Merriweather", sans-serif;
 }
 
 @layer base {
   h1 {
-    @apply font-header text-8xl font-light tracking-tighter;
+    @apply display-large;
   }
   h2 {
-    @apply font-header text-6xl font-light tracking-tight;
+    @apply display-medium;
   }
   h3 {
-    @apply font-header text-5xl font-normal tracking-normal;
+    @apply display-small;
   }
   h4 {
-    @apply font-header text-4xl font-normal tracking-wider;
+    @apply headline-large;
   }
   h5 {
-    @apply font-header text-2xl font-normal tracking-normal;
+    @apply headline-medium;
   }
   h6 {
-    @apply font-header text-xl font-medium tracking-wide;
+    @apply headline-small;
   }
-  .subtitle1 {
-    @apply font-header text-lg font-normal tracking-wide;
+
+  /* BUTTONS */
+
+  /* High emphasis */
+  .extended-fab-button {
+    @apply label-medium capitalize shadow-md hover:bg-blue-500 active:to-red-500 focus:bg-green-500 disabled:bg-slate-500;
   }
-  .subtitle2 {
-    @apply font-header text-sm font-medium tracking-wide;
+  .fab-button {
+    @apply label-medium capitalize shadow;
   }
-  .body1 {
-    @apply font-body text-sm font-normal tracking-widest;
+  .filled-button {
+    @apply label-medium capitalize;
   }
-  .body2 {
-    @apply font-body text-xs font-normal tracking-wider;
+
+  /* Medium emphasis */
+  .filled-tonal-button {
+    @apply label-medium capitalize;
   }
-  .caption {
-    @apply font-body text-xs font-normal tracking-wide;
+  .elevated-button {
+    @apply label-large capitalize surface-variant primary-text shadow-md hover:shadow-lg;
   }
-  .overlined {
-    @apply font-body text-xs font-normal tracking-widest uppercase;
+  .outlined-button {
+    @apply label-medium capitalize;
   }
-  button {
-    @apply font-body font-medium text-xs tracking-widest uppercase  /* uppercase or capitalize */
-/*     enabled: shadow
-    disabled: shadow-none
-    hover: shadow
-    focus: 
-    active:  */
-    ;
+
+  /* Low emphasis */
+  .text-button {
+    @apply label-medium capitalize;
+  }
+  .segmented-button {
+    @apply label-medium capitalize;
+  }
+  .icon-button {
+    @apply label-medium capitalize;
   }
 }

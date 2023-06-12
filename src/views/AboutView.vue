@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>About View</h1>
+  <div class="background">
+    <h1 class="on-background-text p-4">About View</h1>
   </div>
 </template>
 

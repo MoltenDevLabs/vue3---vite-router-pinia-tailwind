@@ -1,0 +1,120 @@
+.error {
+  background-color: var(--md-sys-color-error);
+}
+.error-text {
+  color: var(--md-sys-color-error);
+}
+.error-container {
+  background-color: var(--md-sys-color-error-container);
+}
+.error-container-text {
+  color: var(--md-sys-color-error-container);
+}
+.on-error {
+  background-color: var(--md-sys-color-on-error);
+}
+.on-error-text {
+  color: var(--md-sys-color-on-error);
+}
+.on-error-container {
+  background-color: var(--md-sys-color-on-error-container);
+}
+.on-error-container-text {
+  color: var(--md-sys-color-on-error-container);
+}
+.succes {
+  background-color: var(--md-sys-color-succes);
+}
+.succes-text {
+  color: var(--md-sys-color-succes);
+}
+.succes-container {
+  background-color: var(--md-sys-color-succes-container);
+}
+.succes-container-text {
+  color: var(--md-sys-color-succes-container);
+}
+.on-succes {
+  background-color: var(--md-sys-color-on-succes);
+}
+.on-succes-text {
+  color: var(--md-sys-color-on-succes);
+}
+.on-succes-container {
+  background-color: var(--md-sys-color-on-succes-container);
+}
+.on-succes-container-text {
+  color: var(--md-sys-color-on-succes-container);
+}
+.warning {
+  background-color: var(--md-sys-color-warning);
+}
+.warning-text {
+  color: var(--md-sys-color-warning);
+}
+.warning-container {
+  background-color: var(--md-sys-color-warning-container);
+}
+.warning-container-text {
+  color: var(--md-sys-color-warning-container);
+}
+.on-warning {
+  background-color: var(--md-sys-color-on-warning);
+}
+.on-warning-text {
+  color: var(--md-sys-color-on-warning);
+}
+.on-warning-container {
+  background-color: var(--md-sys-color-on-warning-container);
+}
+.on-warning-container-text {
+  color: var(--md-sys-color-on-warning-container);
+}
+.info {
+  background-color: var(--md-sys-color-info);
+}
+.info-text {
+  color: var(--md-sys-color-info);
+}
+.info-container {
+  background-color: var(--md-sys-color-info-container);
+}
+.info-container-text {
+  color: var(--md-sys-color-info-container);
+}
+.on-info {
+  background-color: var(--md-sys-color-on-info);
+}
+.on-info-text {
+  color: var(--md-sys-color-on-info);
+}
+.on-info-container {
+  background-color: var(--md-sys-color-on-info-container);
+}
+.on-info-container-text {
+  color: var(--md-sys-color-on-info-container);
+}
+.help {
+  background-color: var(--md-sys-color-help);
+}
+.help-text {
+  color: var(--md-sys-color-help);
+}
+.help-container {
+  background-color: var(--md-sys-color-help-container);
+}
+.help-container-text {
+  color: var(--md-sys-color-help-container);
+}
+.on-help {
+  background-color: var(--md-sys-color-on-help);
+}
+.on-help-text {
+  color: var(--md-sys-color-on-help);
+}
+.on-help-container {
+  background-color: var(--md-sys-color-on-help-container);
+}
+.on-help-container-text {
+  color: var(--md-sys-color-on-help-container);
+}
