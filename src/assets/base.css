@@ -27,6 +27,10 @@
   }
 
   /* BUTTONS */
+  .trial-button {
+    @apply relative label-large capitalize overflow-hidden rounded-2xl px-6 py-2 align-middle text-center
+    on-surface surface-high-text shadow-none opacity-50 cursor-default;
+  }
 
   /* High emphasis */
   .extended-fab-button {
@@ -35,27 +39,96 @@
   .fab-button {
     @apply label-medium capitalize shadow;
   }
+
   .filled-button {
-    @apply label-medium capitalize;
+    @apply relative label-large capitalize overflow-hidden rounded-2xl px-6 py-2 align-middle text-center
+    on-primary-text primary brightness-100;
+  }
+  .filled-button:hover {
+    @apply on-primary-text primary shadow shadow-gray-800/40 brightness-90;
+  }
+  .filled-button:focus {
+    @apply on-primary-text primary brightness-90;
+  }
+  .filled-button:active {
+    @apply on-primary-text primary shadow-none brightness-75;
+  }
+  .filled-button:disabled {
+    @apply surface-high-text on-surface shadow-none opacity-50 cursor-default;
   }
 
   /* Medium emphasis */
-  .filled-tonal-button {
-    @apply label-medium capitalize;
+  .tonal-button {
+    @apply relative label-large capitalize overflow-hidden rounded-2xl px-6 py-2 align-middle text-center
+    primary-container primary-variant-text brightness-100;
   }
+  .tonal-button:hover {
+    @apply primary-container primary-variant-text shadow shadow-gray-800/40 brightness-90;
+  }
+  .tonal-button:focus {
+    @apply primary-container primary-variant-text brightness-90;
+  }
+  .tonal-button:active {
+    @apply primary-container primary-variant-text shadow-none brightness-75;
+  }
+  .tonal-button:disabled {
+    @apply on-surface surface-high-text shadow-none opacity-50 cursor-default;
+  }
+
   .elevated-button {
-    @apply label-large capitalize surface-variant primary-text shadow-md hover:shadow-lg;
+    @apply relative label-large capitalize overflow-hidden rounded-2xl px-6 py-2 align-middle text-center
+    secondary-container primary-text shadow shadow-gray-800/40 brightness-100;
   }
+  .elevated-button:hover {
+    @apply secondary-container primary-text shadow-md shadow-gray-800/40 brightness-90;
+  }
+  .elevated-button:focus {
+    @apply secondary-container primary-text shadow shadow-gray-800/40 brightness-90;
+  }
+  .elevated-button:active {
+    @apply secondary-container primary-text shadow-none brightness-75;
+  }
+  .elevated-button:disabled {
+    @apply on-surface surface-high-text shadow-none opacity-50 cursor-default;
+  }
+
   .outlined-button {
-    @apply label-medium capitalize;
+    @apply relative label-large capitalize overflow-hidden rounded-2xl px-6 py-2 align-middle text-center
+    primary-text border brightness-100;
+  }
+  .outlined-button:hover {
+    @apply secondary-container primary-text border brightness-90;
+  }
+  .outlined-button:focus {
+    @apply secondary-container primary-text border brightness-90;
+  }
+  .outlined-button:active {
+    @apply  secondary-container primary-text outline outline-1 outline-offset-0 brightness-75;
+  }
+  .outlined-button:disabled {
+    @apply  on-surface-text border shadow-none opacity-50 cursor-default;
   }
 
   /* Low emphasis */
   .text-button {
-    @apply label-medium capitalize;
+    @apply relative label-large capitalize overflow-hidden rounded-2xl px-6 py-2 align-middle text-center
+    primary-text brightness-100;
   }
+  .text-button:hover {
+    @apply secondary-container primary-text brightness-90;
+  }
+  .text-button:focus {
+    @apply secondary-container primary-text brightness-90;
+  }
+  .text-button:active {
+    @apply secondary-container primary-text brightness-75;
+  }
+  .text-button:disabled {
+    @apply surface-high-text on-surface shadow-none opacity-50 cursor-default;
+  }
+
   .segmented-button {
-    @apply label-medium capitalize;
+    @apply label-large capitalize;
   }
   .icon-button {
     @apply label-medium capitalize;

@@ -173,6 +173,7 @@
   /* light */
   --md-sys-color-primary-light: var(--md-ref-palette-primary40);
   --md-sys-color-on-primary-light: var(--md-ref-palette-primary100);
+  --md-sys-color-primary-variant-light: var(--md-ref-palette-primary25);
   --md-sys-color-primary-container-light: var(--md-ref-palette-primary90);
   --md-sys-color-on-primary-container-light: var(--md-ref-palette-primary10);
   --md-sys-color-secondary-light: var(--md-ref-palette-secondary40);
@@ -207,6 +208,8 @@
   --md-sys-color-on-background-light: var(--md-ref-palette-neutral10);
   --md-sys-color-surface-light: var(--md-ref-palette-neutral99);
   --md-sys-color-on-surface-light: var(--md-ref-palette-neutral10);
+  --md-sys-color-surface-container-light: var(--md-ref-palette-neutral95);
+  --md-sys-color-surface-high-light: var(--md-ref-palette-neutral90);
   --md-sys-color-surface-variant-light: var(--md-ref-palette-neutral-variant90);
   --md-sys-color-on-surface-variant-light: var(--md-ref-palette-neutral-variant30);
   --md-sys-color-outline-light: var(--md-ref-palette-neutral-variant50);
@@ -220,6 +223,7 @@
   /* dark */
   --md-sys-color-primary-dark: var(--md-ref-palette-primary80);
   --md-sys-color-on-primary-dark: var(--md-ref-palette-primary20);
+  --md-sys-color-primary-variant-dark: var(--md-ref-palette-primary80);
   --md-sys-color-primary-container-dark: var(--md-ref-palette-primary30);
   --md-sys-color-on-primary-container-dark: var(--md-ref-palette-primary90);
   --md-sys-color-secondary-dark: var(--md-ref-palette-secondary80);
@@ -254,6 +258,8 @@
   --md-sys-color-on-background-dark: var(--md-ref-palette-neutral90);
   --md-sys-color-surface-dark: var(--md-ref-palette-neutral10);
   --md-sys-color-on-surface-dark: var(--md-ref-palette-neutral90);
+  --md-sys-color-surface-container-dark: var(--md-ref-palette-neutral20);
+  --md-sys-color-surface-high-dark: var(--md-ref-palette-neutral20);
   --md-sys-color-surface-variant-dark: var(--md-ref-palette-neutral-variant30);
   --md-sys-color-on-surface-variant-dark: var(--md-ref-palette-neutral-variant80);
   --md-sys-color-outline-dark: var(--md-ref-palette-neutral-variant60);

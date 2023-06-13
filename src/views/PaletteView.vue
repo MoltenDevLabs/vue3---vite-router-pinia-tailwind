@@ -36,6 +36,12 @@
           <h5 class="surface on-surface-text p-2">Surface & On Surface text</h5>
         </div>
         <div>
+          <h5 class="surface-container on-surface-text p-2">Surface Container & On Surface text</h5>
+        </div>
+        <div>
+          <h5 class="surface-high on-surface-text p-2">Surface High & On Surface text</h5>
+        </div>
+        <div>
           <h5 class="surface-variant on-surface-variant-text p-2">
             Surface Variant & On Surface Variant text
           </h5>

@@ -1,6 +1,7 @@
 :root {
  --md-sys-color-primary: var(--md-sys-color-primary-dark);
  --md-sys-color-on-primary: var(--md-sys-color-on-primary-dark);
+ --md-sys-color-primary-variant: var(--md-sys-color-primary-variant-dark);
  --md-sys-color-primary-container: var(--md-sys-color-primary-container-dark);
  --md-sys-color-on-primary-container: var(--md-sys-color-on-primary-container-dark);
  --md-sys-color-secondary: var(--md-sys-color-secondary-dark);
@@ -35,6 +36,8 @@
  --md-sys-color-on-background: var(--md-sys-color-on-background-dark);
  --md-sys-color-surface: var(--md-sys-color-surface-dark);
  --md-sys-color-on-surface: var(--md-sys-color-on-surface-dark);
+ --md-sys-color-surface-container: var(--md-sys-color-surface-container-dark);
+ --md-sys-color-surface-high: var(--md-sys-color-surface-high-dark);
  --md-sys-color-surface-variant: var(--md-sys-color-surface-variant-dark);
  --md-sys-color-on-surface-variant: var(--md-sys-color-on-surface-variant-dark);
  --md-sys-color-outline: var(--md-sys-color-outline-dark);

@@ -22,23 +22,46 @@
       <p class="label-medium on-background-text">This is label-medium</p>
       <p class="label-small on-background-text">This is label-small</p>
       <hr />
-      <div>
-        <button class="extended-fab-button">Button</button>
-        <button class="fab-button">Button</button>
-        <button class="filled-button">Button</button>
-        <button class="filled-tonal-button">Button</button>
-        <button class="elevated-button">Button</button>
-        <button class="outlined-button">Button</button>
-        <button class="text-button">Button</button>
-        <button class="segmented-button">Button</button>
-        <button class="icon-button">Button</button>
+      <div class="flex flex-col gap-4 py-2 mb-2">
+        <div class="flex gap-4">
+          <button class="trial-button">Button</button>
+        </div>
+        <div class="flex gap-8">
+          <button class="extended-fab-button">Button</button>
+          <button class="fab-button">Button</button>
+          <button class="filled-button ripple" @click="createRipple">Button</button>
+        </div>
+        <div class="flex gap-8">
+          <button class="tonal-button">Button</button>
+          <button class="elevated-button ripple" @click="createRipple">Button</button>
+          <button class="outlined-button">Button</button>
+        </div>
+        <div class="flex gap-8">
+          <button class="text-button">Button</button>
+          <button class="segmented-button">Button</button>
+          <button class="icon-button">Button</button>
+        </div>
       </div>
     </div>
   </div>
+
+  <div>
+<h1 class=" background h-screen ripple" @click="createRipple">THE GREAT DIV</h1>
+  </div>
+
 </template>
 
 <script>
+import animationStore from '../stores/animationStore';
+import { mapActions } from 'pinia';
+
 export default {
   name: "TypographyView",
+  methods: {
+    ...mapActions(animationStore, ['attachRippleEffect'])
+  },
+  mounted() {
+    this.attachRippleEffect();
+  },
 };
 </script>
